@@ -1,0 +1,156 @@
+body{
+  font-family: 'Roboto Slab', monospace;
+  background-color:#F3F3F4;
+  padding:0;
+  margin:0;
+}
+
+.mobilemessage{
+  display: none;
+}
+.wrapper{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width:100%;
+  height:250vh;
+  margin:0;
+}
+
+.header{
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction:row;
+  align-items: flex-end;
+  justify-content: space-around;
+  max-height:15vh;
+  border-bottom: 1vh solid #D3A15F;
+  width:90%;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  font-size:20px;
+}
+.headerlogo{
+  max-height:10vh;
+}
+
+.footer{
+  position:absolute;
+  bottom:0px;
+  max-height:50vh;
+  background-color: #053361;
+  min-height:10vh;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+.footerimage{
+  object-fit: scale-down;
+  width:50%;
+  margin:10vh;
+}
+
+.footertext{
+  width:50%;
+  margin:2vh;
+  color: #F3F3F4;
+  text-align:left;
+}
+
+.links a{
+  color:#313639;
+  text-decoration:none;
+}
+
+.links a:hover{
+  color:#8FBCCC;
+}
+
+.catchy-text{
+  color:#313639;
+}
+
+.banner{
+  display:flex;
+  flex-direction:row;
+  padding-left:5vw;
+  padding-right:5vw;
+  padding-top:5vh;
+  padding-bottom:5vh;
+  justify-content: space-between;
+  height:65vh;
+}
+.catchy-text{
+  width:50%;
+}
+.banner-image-container{
+  height:50vh;
+  width:40vw;
+  object-fit:cover;
+  overflow:hidden;
+}
+
+.banner-image{
+  width:40vw;
+}
+
+.about-us{
+  scroll-snap-align: start;
+  height:100vh;
+  width:100%;
+  background-color:#8FBCCC;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.aboutsection{
+  width:50%;
+  height:50%;
+}
+
+.button{
+  color: #053361;
+
+  padding-left:1vw;
+  padding-right:1vw;
+  border-radius: 20px;
+  background-color: #D3A15F;
+
+}
+
+.button:hover{
+  background-color:#8FBCCC
+}
+
+a{
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  text-decoration:none;
+}
+
+.imagesec{
+  object-fit:cover;
+  overflow:hidden;
+}
+
+.aboutimage{
+  width:50vw;
+  height:50vh;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    display:none;
+  }
+  .mobilemessage{
+    display:block;
+  }
+}
