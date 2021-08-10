@@ -389,7 +389,7 @@ a{
   position:absolute;
   top:85%;
   padding-top:4vh;
-  border-top:solid #D3A15F;
+  border-top: 0.5vh solid #D3A15F;
   width:100%;
 }
 .circledesc h1{
