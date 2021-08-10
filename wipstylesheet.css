@@ -70,7 +70,9 @@ margin-top:-2vh;
   object-fit: scale-down;
   width:50%;
 }
-
+.description h2{
+  margin-top:-3vh;
+}
 .footertext{
   width:50%;
  color:#D3A15F;
@@ -365,6 +367,7 @@ a{
 .circledesc{
   padding-left:10%;
   padding-right:10%;
+  height:20vh;
 }
 
 .email{
