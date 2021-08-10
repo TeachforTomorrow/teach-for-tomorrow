@@ -75,38 +75,45 @@ input{
 
 .aboutsection{
   width:100%;
-  font-size:24px;
+  font-size:40px;
   margin-top:2vh;
+  height:100%;
+  padding:0;
+
 }
 
 .aboutimage{
   width:100%;
   max-width:none;
   min-height:auto;
-  max-height:20vh;
-
+  max-height:22vh;
+  height:100%;
+  padding:0;
 }
 
 .teamcontainer{
-  flex-direction:column;
-  flex-wrap:nowrap;
+  flex-direction:row;
 }
 .headshot{
-  width:13vh;
-  height:13vh;
+  width:18vh;
+  height:18vh;
 }
 .teammember{
-  height:auto;
-  widht:auto;
+  height:30vh;
+  width:30vw;
 }
 .teammember p{
-  font-size:1.6vw;
+  font-size:2vw;
 }
 .desctext{
   width:27vw;
 }
 .description h2{
   margin-top:-1vh;
+  font-size:2vh;
+}
+.description h1{
+  font-size:2.5vh;
 }
 .sidebuttons{
   flex-direction:column;
@@ -118,7 +125,7 @@ input{
 .circlebutton{
   height:30vh;
   width:30vh;
-  line-height:30vh;
+  line-height:32vh;
   font-size:20vh;
 }
 .getintouchblock{
