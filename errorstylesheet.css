@@ -1,0 +1,46 @@
+body{
+  font-family: 'Cutive Mono', monospace;
+  background-color:#F3F3F4;
+  padding:0;
+  margin:0;
+  text-align:center;
+}
+
+img{
+max-width:400px;
+width:100%;
+position: absolute;
+top: 0; left: 0; bottom: 0; right: 0;
+margin:auto;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.wrapper:before{
+content: '';
+background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/-a010-markuss-0336.jpg?w=1200&h=1200&fit=clip&crop=default&dpr=1&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=c699c9162d37cd757ba1e03ac298db8a);
+width:100%;
+height:100%;
+position:absolute;
+left:0;
+top:0;
+background-position: 50% 20%;
+background-size: cover;
+z-index:-100;
+opacity:0.17;
+}
+
+h1{
+  height:17px;
+}
+
+p{
+  bottom:0;
+  position:absolute;
+}
