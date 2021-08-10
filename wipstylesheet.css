@@ -4,6 +4,11 @@ body{
   padding:0;
   margin:0;
   color:#313639;
+  width:100vw;
+}
+
+.desktophidden{
+  display:none;
 }
 
 .mobilemessage{
@@ -61,7 +66,7 @@ margin-top:-2vh;
 .social{
   text-decoration:none;
   color:#D3A15F;
-
+  font-family:"Love Ya Like A Sister";
 }
 .footer a:hover, .footer a:active{
   color:#8FBCCC;
@@ -92,7 +97,7 @@ margin-top:-2vh;
 
 }
 
-.links a:hover{
+.links a:hover, .links a:active{
   color:#8FBCCC;
 }
 
@@ -152,7 +157,7 @@ margin-top:-2vh;
 
 }
 
-.button:hover{
+.button:hover, .button:active{
   background-color:#8FBCCC
 }
 
@@ -360,7 +365,7 @@ a{
   width:50vh;
   border-radius:50%;
 }
-.circlebutton:hover{
+.circlebutton:hover, .circlebutton:active{
   background-color: #053361;
   color:#8FBCCC;
 }
@@ -383,20 +388,11 @@ a{
 .email a{
   color:#053361;
 }
-.email a:hover{
+.email a:hover, .email a:active{
   font-size:20px;
 }
-.pin1:hover .easter{
+.pin1:hover .easter, .pin1:active .easter{
   opacity:1;
   transition: opacity 0.4s;
   position:absolute;
-}
-
-@media only screen and (max-width: 1000px) {
-  .wrapper {
-    display:none;
-  }
-  .mobilemessage{
-    display:block;
-  }
 }
