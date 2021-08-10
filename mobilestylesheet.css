@@ -39,8 +39,7 @@
 #hamnav input:checked ~ #hamitems { visibility:visible;}
 
 .pin1 {
-  top: 106vh;
-  left: 14.7vw;
+
 }
 
 input{
