@@ -8,10 +8,10 @@
 /* (A) BREAK INTO VERTICAL MENU */
 #hamitems{
   position:absolute;
-  height:70vh;
+  height:73vh;
   width:90vw;
   background-color:#F3F3F4;
-  top:16vh;
+  top:17vh;
   left:0;
   flex-direction: column;
   justify-content: space-around;

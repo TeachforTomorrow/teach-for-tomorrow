@@ -97,13 +97,13 @@ margin-top:-2vh;
   border-top:1px solid;
 }
 
-.links a{
+.header a{
   color:#313639;
   text-decoration:none;
 
 }
 
-.links a:hover, .links a:active{
+.header a:hover, .links a:active{
   color:#8FBCCC;
 }
 
