@@ -124,6 +124,10 @@ margin-top:-2vh;
 .catchy-text{
   width:50%;
 }
+
+.catchy-text h1{
+  font-size:4vh;
+}
 .banner-image-container{
   height:50vh;
   width:40vw;
@@ -151,6 +155,7 @@ margin-top:-2vh;
 .aboutsection{
   width:50%;
   height:50%;
+  font-size:1.8vh;
 }
 
 .button{
@@ -224,6 +229,8 @@ a{
   width:20vw;
   padding:30px;
   text-align:center;
+
+  min-height:250px;
 }
 .teammember p{
   font-size:0.65vw;
@@ -328,7 +335,7 @@ a{
 }
 
 .getintouchblock{
-  height:90vh;
+  height:85vh;
   width:80%;
   background-color:#8FBCCC;
   display:flex;
@@ -337,12 +344,12 @@ a{
   padding-left:10%;
   padding-right:10%;
   padding-top:5vh;
-  padding-bottom:5vh;
   text-align:center;
   position:relative;
 }
 .getintouchheader{
   position:relative;
+  font-size:5vh;
 }
 
 .getintouchheader:after{
@@ -366,6 +373,7 @@ a{
   flex-direction:column;
   align-items: center;
   justify-content: space-around;
+  height:100%;
 }
 .circlebutton{
   font-size:30vh;
@@ -374,9 +382,11 @@ a{
   background-color: #D3A15F;
   height:50vh;
   width:50vh;
+  max-width:35vw;
   border-radius:50%;
   font-family: icons;
   text-align:center;
+  max-height:50vh;
 }
 .circlebutton:hover, .circlebutton:active{
   background-color: #053361;
@@ -385,24 +395,35 @@ a{
 .circledesc{
   padding-left:10%;
   padding-right:10%;
-  height:20vh;
+  min-height:10vh;
 }
 
 .email{
-  position:absolute;
-  top:85%;
-  padding-top:4vh;
+  text-align:center;
+  background-color:#8FBCCC;
   border-top: 0.5vh solid #D3A15F;
   width:100%;
+  margin:0;
+  height:3vh;
+  padding-top:2vh;
+  padding-bottom:5vh;
+  z-index:10;
+  font-size:2.3vh;
 }
 .circledesc h1{
   color:#053361;
+  white-space: nowrap;
+  font-size:4vh;
+}
+
+.circledesc p{
+  font-size:2.5vh;
 }
 .email a{
   color:#053361;
 }
 .email a:hover, .email a:active{
-  font-size:20px;
+  font-size:2.5vh;
 }
 .pin1:hover .easter, .pin1:active .easter{
   opacity:1;
