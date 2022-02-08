@@ -330,7 +330,10 @@ a{
   z-index:100;
   background-color:#F3F3F4;
 }
-
+.big{
+  margin-top:-0.5vh;
+  color:#053361;
+}
 .pintext{
   margin-top:3vh;
   margin-left:-1vw;

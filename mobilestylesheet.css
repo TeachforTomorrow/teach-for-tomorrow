@@ -8,8 +8,8 @@
 /* (A) BREAK INTO VERTICAL MENU */
 #hamitems{
   position:absolute;
-  height:73vh;
-  width:95vw;
+  height:75vh;
+  width:90vw;
   background-color:#F3F3F4;
   top:17vh;
   left:0;
@@ -17,6 +17,7 @@
   justify-content: space-around;
   display:flex;
   z-index: 10000;
+  border-bottom: 10vh solid #8FBCCC;
 }
 #hamitems a {
   box-sizing: border-box;
@@ -24,7 +25,7 @@
   width: 10vw;
   white-space: nowrap;
   border-bottom: 1vh solid #D3A15F;
-  font-size:6vh;
+  font-size:5vh;
   z-index: 10000;
 }
 /* (B) SHOW HAMBURGER ICON */
@@ -61,8 +62,12 @@ input{
 
 .catchy-text{
   width:100%;
-  font-size:3vw;
 }
+
+.catchy-text h1{
+  font-size: 7vw;
+}
+
 
 .banner-image-container{
   width:100%
@@ -81,7 +86,7 @@ input{
 
 .aboutsection{
   width:100%;
-  font-size:3vh;
+  font-size:1.5vh;
   margin-top:2vh;
   height:100%;
   padding:0;
@@ -100,20 +105,20 @@ input{
   flex-direction:row;
 }
 .headshot{
-  width:18vh;
-  height:18vh;
+  width:25vh;
+  height:25vh;
   min-width:25vw;
   min-height:25vw;
 }
 .teammember{
-  height:30vh;
-  width:30vw;
+  height:40vh;
+  width:40vw;
 }
 .teammember p{
-  font-size:1.7vw;
+  font-size:1.6vh;
 }
 .desctext{
-  width:27vw;
+  width:25vh;
 }
 .description h2{
   margin-top:-1vh;
@@ -136,6 +141,9 @@ input{
   font-size:20vh;
   min-height:auto;
   max-width:none;
+}
+.circledesc h1{
+  font-size: 3vh;
 }
 .getintouchblock{
   height:auto;
